@@ -1,484 +1,1072 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		5A29966916FE1D8800EDB6C0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A29966816FE1D8800EDB6C0 /* Cocoa.framework */; };
-		5A29967316FE1D8800EDB6C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A29967116FE1D8800EDB6C0 /* InfoPlist.strings */; };
-		5A29967516FE1D8800EDB6C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A29967416FE1D8800EDB6C0 /* main.m */; };
-		5A29967916FE1D8800EDB6C0 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5A29967716FE1D8800EDB6C0 /* Credits.rtf */; };
-		5A29967C16FE1D8800EDB6C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A29967B16FE1D8800EDB6C0 /* AppDelegate.m */; };
-		5A29967F16FE1D8800EDB6C0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A29967D16FE1D8800EDB6C0 /* MainMenu.xib */; };
-		5A29968216FE1D8800EDB6C0 /* FogBugzer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A29968016FE1D8800EDB6C0 /* FogBugzer.xcdatamodeld */; };
-		5A29968A16FE1D8800EDB6C0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A29968916FE1D8800EDB6C0 /* SenTestingKit.framework */; };
-		5A29968B16FE1D8800EDB6C0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A29966816FE1D8800EDB6C0 /* Cocoa.framework */; };
-		5A29969316FE1D8800EDB6C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A29969116FE1D8800EDB6C0 /* InfoPlist.strings */; };
-		5A29969616FE1D8800EDB6C0 /* FogBugzerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A29969516FE1D8800EDB6C0 /* FogBugzerTests.m */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		5A29968C16FE1D8800EDB6C0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5A29965D16FE1D8800EDB6C0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5A29966416FE1D8800EDB6C0;
-			remoteInfo = FogBugzer;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		5A29966516FE1D8800EDB6C0 /* FogBugzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FogBugzer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A29966816FE1D8800EDB6C0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		5A29966B16FE1D8800EDB6C0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		5A29966C16FE1D8800EDB6C0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		5A29966D16FE1D8800EDB6C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		5A29967016FE1D8800EDB6C0 /* FogBugzer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FogBugzer-Info.plist"; sourceTree = "<group>"; };
-		5A29967216FE1D8800EDB6C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5A29967416FE1D8800EDB6C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5A29967616FE1D8800EDB6C0 /* FogBugzer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FogBugzer-Prefix.pch"; sourceTree = "<group>"; };
-		5A29967816FE1D8800EDB6C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		5A29967A16FE1D8800EDB6C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		5A29967B16FE1D8800EDB6C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5A29967E16FE1D8800EDB6C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		5A29968116FE1D8800EDB6C0 /* FogBugzer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FogBugzer.xcdatamodel; sourceTree = "<group>"; };
-		5A29968816FE1D8800EDB6C0 /* FogBugzerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FogBugzerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A29968916FE1D8800EDB6C0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		5A29969016FE1D8800EDB6C0 /* FogBugzerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FogBugzerTests-Info.plist"; sourceTree = "<group>"; };
-		5A29969216FE1D8800EDB6C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5A29969416FE1D8800EDB6C0 /* FogBugzerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FogBugzerTests.h; sourceTree = "<group>"; };
-		5A29969516FE1D8800EDB6C0 /* FogBugzerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FogBugzerTests.m; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		5A29966216FE1D8800EDB6C0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5A29966916FE1D8800EDB6C0 /* Cocoa.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5A29968416FE1D8800EDB6C0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5A29968A16FE1D8800EDB6C0 /* SenTestingKit.framework in Frameworks */,
-				5A29968B16FE1D8800EDB6C0 /* Cocoa.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		5A29965C16FE1D8800EDB6C0 = {
-			isa = PBXGroup;
-			children = (
-				5A29966E16FE1D8800EDB6C0 /* FogBugzer */,
-				5A29968E16FE1D8800EDB6C0 /* FogBugzerTests */,
-				5A29966716FE1D8800EDB6C0 /* Frameworks */,
-				5A29966616FE1D8800EDB6C0 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		5A29966616FE1D8800EDB6C0 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5A29966516FE1D8800EDB6C0 /* FogBugzer.app */,
-				5A29968816FE1D8800EDB6C0 /* FogBugzerTests.octest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		5A29966716FE1D8800EDB6C0 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5A29966816FE1D8800EDB6C0 /* Cocoa.framework */,
-				5A29968916FE1D8800EDB6C0 /* SenTestingKit.framework */,
-				5A29966A16FE1D8800EDB6C0 /* Other Frameworks */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		5A29966A16FE1D8800EDB6C0 /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5A29966B16FE1D8800EDB6C0 /* AppKit.framework */,
-				5A29966C16FE1D8800EDB6C0 /* CoreData.framework */,
-				5A29966D16FE1D8800EDB6C0 /* Foundation.framework */,
-			);
-			name = "Other Frameworks";
-			sourceTree = "<group>";
-		};
-		5A29966E16FE1D8800EDB6C0 /* FogBugzer */ = {
-			isa = PBXGroup;
-			children = (
-				5A29967A16FE1D8800EDB6C0 /* AppDelegate.h */,
-				5A29967B16FE1D8800EDB6C0 /* AppDelegate.m */,
-				5A29967D16FE1D8800EDB6C0 /* MainMenu.xib */,
-				5A29968016FE1D8800EDB6C0 /* FogBugzer.xcdatamodeld */,
-				5A29966F16FE1D8800EDB6C0 /* Supporting Files */,
-			);
-			path = FogBugzer;
-			sourceTree = "<group>";
-		};
-		5A29966F16FE1D8800EDB6C0 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				5A29967016FE1D8800EDB6C0 /* FogBugzer-Info.plist */,
-				5A29967116FE1D8800EDB6C0 /* InfoPlist.strings */,
-				5A29967416FE1D8800EDB6C0 /* main.m */,
-				5A29967616FE1D8800EDB6C0 /* FogBugzer-Prefix.pch */,
-				5A29967716FE1D8800EDB6C0 /* Credits.rtf */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		5A29968E16FE1D8800EDB6C0 /* FogBugzerTests */ = {
-			isa = PBXGroup;
-			children = (
-				5A29969416FE1D8800EDB6C0 /* FogBugzerTests.h */,
-				5A29969516FE1D8800EDB6C0 /* FogBugzerTests.m */,
-				5A29968F16FE1D8800EDB6C0 /* Supporting Files */,
-			);
-			path = FogBugzerTests;
-			sourceTree = "<group>";
-		};
-		5A29968F16FE1D8800EDB6C0 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				5A29969016FE1D8800EDB6C0 /* FogBugzerTests-Info.plist */,
-				5A29969116FE1D8800EDB6C0 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		5A29966416FE1D8800EDB6C0 /* FogBugzer */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5A29969916FE1D8800EDB6C0 /* Build configuration list for PBXNativeTarget "FogBugzer" */;
-			buildPhases = (
-				5A29966116FE1D8800EDB6C0 /* Sources */,
-				5A29966216FE1D8800EDB6C0 /* Frameworks */,
-				5A29966316FE1D8800EDB6C0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FogBugzer;
-			productName = FogBugzer;
-			productReference = 5A29966516FE1D8800EDB6C0 /* FogBugzer.app */;
-			productType = "com.apple.product-type.application";
-		};
-		5A29968716FE1D8800EDB6C0 /* FogBugzerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5A29969C16FE1D8800EDB6C0 /* Build configuration list for PBXNativeTarget "FogBugzerTests" */;
-			buildPhases = (
-				5A29968316FE1D8800EDB6C0 /* Sources */,
-				5A29968416FE1D8800EDB6C0 /* Frameworks */,
-				5A29968516FE1D8800EDB6C0 /* Resources */,
-				5A29968616FE1D8800EDB6C0 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5A29968D16FE1D8800EDB6C0 /* PBXTargetDependency */,
-			);
-			name = FogBugzerTests;
-			productName = FogBugzerTests;
-			productReference = 5A29968816FE1D8800EDB6C0 /* FogBugzerTests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		5A29965D16FE1D8800EDB6C0 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 0460;
-				ORGANIZATIONNAME = "Sven A. Schmidt";
-			};
-			buildConfigurationList = 5A29966016FE1D8800EDB6C0 /* Build configuration list for PBXProject "FogBugzer" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-			);
-			mainGroup = 5A29965C16FE1D8800EDB6C0;
-			productRefGroup = 5A29966616FE1D8800EDB6C0 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				5A29966416FE1D8800EDB6C0 /* FogBugzer */,
-				5A29968716FE1D8800EDB6C0 /* FogBugzerTests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		5A29966316FE1D8800EDB6C0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5A29967316FE1D8800EDB6C0 /* InfoPlist.strings in Resources */,
-				5A29967916FE1D8800EDB6C0 /* Credits.rtf in Resources */,
-				5A29967F16FE1D8800EDB6C0 /* MainMenu.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5A29968516FE1D8800EDB6C0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5A29969316FE1D8800EDB6C0 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		5A29968616FE1D8800EDB6C0 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		5A29966116FE1D8800EDB6C0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5A29967516FE1D8800EDB6C0 /* main.m in Sources */,
-				5A29967C16FE1D8800EDB6C0 /* AppDelegate.m in Sources */,
-				5A29968216FE1D8800EDB6C0 /* FogBugzer.xcdatamodeld in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5A29968316FE1D8800EDB6C0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5A29969616FE1D8800EDB6C0 /* FogBugzerTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5A29968D16FE1D8800EDB6C0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5A29966416FE1D8800EDB6C0 /* FogBugzer */;
-			targetProxy = 5A29968C16FE1D8800EDB6C0 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		5A29967116FE1D8800EDB6C0 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5A29967216FE1D8800EDB6C0 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		5A29967716FE1D8800EDB6C0 /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5A29967816FE1D8800EDB6C0 /* en */,
-			);
-			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		5A29967D16FE1D8800EDB6C0 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5A29967E16FE1D8800EDB6C0 /* en */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		5A29969116FE1D8800EDB6C0 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5A29969216FE1D8800EDB6C0 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		5A29969716FE1D8800EDB6C0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
-			};
-			name = Debug;
-		};
-		5A29969816FE1D8800EDB6C0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				SDKROOT = macosx;
-			};
-			name = Release;
-		};
-		5A29969A16FE1D8800EDB6C0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FogBugzer/FogBugzer-Prefix.pch";
-				INFOPLIST_FILE = "FogBugzer/FogBugzer-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		5A29969B16FE1D8800EDB6C0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FogBugzer/FogBugzer-Prefix.pch";
-				INFOPLIST_FILE = "FogBugzer/FogBugzer-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		5A29969D16FE1D8800EDB6C0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FogBugzer.app/Contents/MacOS/FogBugzer";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FogBugzer/FogBugzer-Prefix.pch";
-				INFOPLIST_FILE = "FogBugzerTests/FogBugzerTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		5A29969E16FE1D8800EDB6C0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FogBugzer.app/Contents/MacOS/FogBugzer";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FogBugzer/FogBugzer-Prefix.pch";
-				INFOPLIST_FILE = "FogBugzerTests/FogBugzerTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		5A29966016FE1D8800EDB6C0 /* Build configuration list for PBXProject "FogBugzer" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5A29969716FE1D8800EDB6C0 /* Debug */,
-				5A29969816FE1D8800EDB6C0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5A29969916FE1D8800EDB6C0 /* Build configuration list for PBXNativeTarget "FogBugzer" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5A29969A16FE1D8800EDB6C0 /* Debug */,
-				5A29969B16FE1D8800EDB6C0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		5A29969C16FE1D8800EDB6C0 /* Build configuration list for PBXNativeTarget "FogBugzerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5A29969D16FE1D8800EDB6C0 /* Debug */,
-				5A29969E16FE1D8800EDB6C0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-/* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		5A29968016FE1D8800EDB6C0 /* FogBugzer.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				5A29968116FE1D8800EDB6C0 /* FogBugzer.xcdatamodel */,
-			);
-			currentVersion = 5A29968116FE1D8800EDB6C0 /* FogBugzer.xcdatamodel */;
-			path = FogBugzer.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
-	};
-	rootObject = 5A29965D16FE1D8800EDB6C0 /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>31221350557548FF9A380878</key>
+		<dict>
+			<key>fileRef</key>
+			<string>868BFBCF361D4149BEB7FE1B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+		<key>5A29965C16FE1D8800EDB6C0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>5A29966E16FE1D8800EDB6C0</string>
+				<string>5A29968E16FE1D8800EDB6C0</string>
+				<string>5A29966716FE1D8800EDB6C0</string>
+				<string>5A29966616FE1D8800EDB6C0</string>
+				<string>8B819B2F0A8643D9895CF2E1</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5A29965D16FE1D8800EDB6C0</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0460</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>Sven A. Schmidt</string>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>5A29966016FE1D8800EDB6C0</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>5A29965C16FE1D8800EDB6C0</string>
+			<key>productRefGroup</key>
+			<string>5A29966616FE1D8800EDB6C0</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>5A29966416FE1D8800EDB6C0</string>
+				<string>5A29968716FE1D8800EDB6C0</string>
+			</array>
+		</dict>
+		<key>5A29966016FE1D8800EDB6C0</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>5A29969716FE1D8800EDB6C0</string>
+				<string>5A29969816FE1D8800EDB6C0</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>5A29966116FE1D8800EDB6C0</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>5A29967516FE1D8800EDB6C0</string>
+				<string>5A29967C16FE1D8800EDB6C0</string>
+				<string>5A29968216FE1D8800EDB6C0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>5A29966216FE1D8800EDB6C0</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>5A29966916FE1D8800EDB6C0</string>
+				<string>31221350557548FF9A380878</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>5A29966316FE1D8800EDB6C0</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>5A29967316FE1D8800EDB6C0</string>
+				<string>5A29967916FE1D8800EDB6C0</string>
+				<string>5A29967F16FE1D8800EDB6C0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>5A29966416FE1D8800EDB6C0</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>5A29969916FE1D8800EDB6C0</string>
+			<key>buildPhases</key>
+			<array>
+				<string>5A29966116FE1D8800EDB6C0</string>
+				<string>5A29966216FE1D8800EDB6C0</string>
+				<string>5A29966316FE1D8800EDB6C0</string>
+				<string>6ACD52FC999A4C1890A25F6D</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>FogBugzer</string>
+			<key>productName</key>
+			<string>FogBugzer</string>
+			<key>productReference</key>
+			<string>5A29966516FE1D8800EDB6C0</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>5A29966516FE1D8800EDB6C0</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>FogBugzer.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>5A29966616FE1D8800EDB6C0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>5A29966516FE1D8800EDB6C0</string>
+				<string>5A29968816FE1D8800EDB6C0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5A29966716FE1D8800EDB6C0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>5A29966816FE1D8800EDB6C0</string>
+				<string>5A29968916FE1D8800EDB6C0</string>
+				<string>5A29966A16FE1D8800EDB6C0</string>
+				<string>868BFBCF361D4149BEB7FE1B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5A29966816FE1D8800EDB6C0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Cocoa.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/Cocoa.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>5A29966916FE1D8800EDB6C0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5A29966816FE1D8800EDB6C0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5A29966A16FE1D8800EDB6C0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>5A29966B16FE1D8800EDB6C0</string>
+				<string>5A29966C16FE1D8800EDB6C0</string>
+				<string>5A29966D16FE1D8800EDB6C0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Other Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5A29966B16FE1D8800EDB6C0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>AppKit.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/AppKit.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>5A29966C16FE1D8800EDB6C0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreData.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/CoreData.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>5A29966D16FE1D8800EDB6C0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>5A29966E16FE1D8800EDB6C0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>5A29967A16FE1D8800EDB6C0</string>
+				<string>5A29967B16FE1D8800EDB6C0</string>
+				<string>5A29967D16FE1D8800EDB6C0</string>
+				<string>5A29968016FE1D8800EDB6C0</string>
+				<string>5A29966F16FE1D8800EDB6C0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>FogBugzer</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5A29966F16FE1D8800EDB6C0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>5A29967016FE1D8800EDB6C0</string>
+				<string>5A29967116FE1D8800EDB6C0</string>
+				<string>5A29967416FE1D8800EDB6C0</string>
+				<string>5A29967616FE1D8800EDB6C0</string>
+				<string>5A29967716FE1D8800EDB6C0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5A29967016FE1D8800EDB6C0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>FogBugzer-Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5A29967116FE1D8800EDB6C0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>5A29967216FE1D8800EDB6C0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5A29967216FE1D8800EDB6C0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.strings</string>
+			<key>name</key>
+			<string>en</string>
+			<key>path</key>
+			<string>en.lproj/InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5A29967316FE1D8800EDB6C0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5A29967116FE1D8800EDB6C0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5A29967416FE1D8800EDB6C0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>main.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5A29967516FE1D8800EDB6C0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5A29967416FE1D8800EDB6C0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5A29967616FE1D8800EDB6C0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>FogBugzer-Prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5A29967716FE1D8800EDB6C0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>5A29967816FE1D8800EDB6C0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>Credits.rtf</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5A29967816FE1D8800EDB6C0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.rtf</string>
+			<key>name</key>
+			<string>en</string>
+			<key>path</key>
+			<string>en.lproj/Credits.rtf</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5A29967916FE1D8800EDB6C0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5A29967716FE1D8800EDB6C0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5A29967A16FE1D8800EDB6C0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AppDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5A29967B16FE1D8800EDB6C0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>AppDelegate.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5A29967C16FE1D8800EDB6C0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5A29967B16FE1D8800EDB6C0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5A29967D16FE1D8800EDB6C0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>5A29967E16FE1D8800EDB6C0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>MainMenu.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5A29967E16FE1D8800EDB6C0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.xib</string>
+			<key>name</key>
+			<string>en</string>
+			<key>path</key>
+			<string>en.lproj/MainMenu.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5A29967F16FE1D8800EDB6C0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5A29967D16FE1D8800EDB6C0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5A29968016FE1D8800EDB6C0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>5A29968116FE1D8800EDB6C0</string>
+			</array>
+			<key>currentVersion</key>
+			<string>5A29968116FE1D8800EDB6C0</string>
+			<key>isa</key>
+			<string>XCVersionGroup</string>
+			<key>path</key>
+			<string>FogBugzer.xcdatamodeld</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+			<key>versionGroupType</key>
+			<string>wrapper.xcdatamodel</string>
+		</dict>
+		<key>5A29968116FE1D8800EDB6C0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.xcdatamodel</string>
+			<key>path</key>
+			<string>FogBugzer.xcdatamodel</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5A29968216FE1D8800EDB6C0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5A29968016FE1D8800EDB6C0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5A29968316FE1D8800EDB6C0</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>5A29969616FE1D8800EDB6C0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>5A29968416FE1D8800EDB6C0</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>5A29968A16FE1D8800EDB6C0</string>
+				<string>5A29968B16FE1D8800EDB6C0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>5A29968516FE1D8800EDB6C0</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>5A29969316FE1D8800EDB6C0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>5A29968616FE1D8800EDB6C0</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string># Run the unit tests in this test bundle.
+"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests"
+</string>
+		</dict>
+		<key>5A29968716FE1D8800EDB6C0</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>5A29969C16FE1D8800EDB6C0</string>
+			<key>buildPhases</key>
+			<array>
+				<string>5A29968316FE1D8800EDB6C0</string>
+				<string>5A29968416FE1D8800EDB6C0</string>
+				<string>5A29968516FE1D8800EDB6C0</string>
+				<string>5A29968616FE1D8800EDB6C0</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>5A29968D16FE1D8800EDB6C0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>FogBugzerTests</string>
+			<key>productName</key>
+			<string>FogBugzerTests</string>
+			<key>productReference</key>
+			<string>5A29968816FE1D8800EDB6C0</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle</string>
+		</dict>
+		<key>5A29968816FE1D8800EDB6C0</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>FogBugzerTests.octest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>5A29968916FE1D8800EDB6C0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>SenTestingKit.framework</string>
+			<key>path</key>
+			<string>Library/Frameworks/SenTestingKit.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>5A29968A16FE1D8800EDB6C0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5A29968916FE1D8800EDB6C0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5A29968B16FE1D8800EDB6C0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5A29966816FE1D8800EDB6C0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5A29968C16FE1D8800EDB6C0</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>5A29965D16FE1D8800EDB6C0</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>5A29966416FE1D8800EDB6C0</string>
+			<key>remoteInfo</key>
+			<string>FogBugzer</string>
+		</dict>
+		<key>5A29968D16FE1D8800EDB6C0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>5A29966416FE1D8800EDB6C0</string>
+			<key>targetProxy</key>
+			<string>5A29968C16FE1D8800EDB6C0</string>
+		</dict>
+		<key>5A29968E16FE1D8800EDB6C0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>5A29969416FE1D8800EDB6C0</string>
+				<string>5A29969516FE1D8800EDB6C0</string>
+				<string>5A29968F16FE1D8800EDB6C0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>FogBugzerTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5A29968F16FE1D8800EDB6C0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>5A29969016FE1D8800EDB6C0</string>
+				<string>5A29969116FE1D8800EDB6C0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5A29969016FE1D8800EDB6C0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>FogBugzerTests-Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5A29969116FE1D8800EDB6C0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>5A29969216FE1D8800EDB6C0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5A29969216FE1D8800EDB6C0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.strings</string>
+			<key>name</key>
+			<string>en</string>
+			<key>path</key>
+			<string>en.lproj/InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5A29969316FE1D8800EDB6C0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5A29969116FE1D8800EDB6C0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5A29969416FE1D8800EDB6C0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>FogBugzerTests.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5A29969516FE1D8800EDB6C0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>FogBugzerTests.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5A29969616FE1D8800EDB6C0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5A29969516FE1D8800EDB6C0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5A29969716FE1D8800EDB6C0</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>ARCHS</key>
+				<string>$(ARCHS_STANDARD_64_BIT)</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_ENABLE_OBJC_EXCEPTIONS</key>
+				<string>YES</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>MACOSX_DEPLOYMENT_TARGET</key>
+				<string>10.8</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>macosx</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>5A29969816FE1D8800EDB6C0</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>ARCHS</key>
+				<string>$(ARCHS_STANDARD_64_BIT)</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_ENABLE_OBJC_EXCEPTIONS</key>
+				<string>YES</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>MACOSX_DEPLOYMENT_TARGET</key>
+				<string>10.8</string>
+				<key>SDKROOT</key>
+				<string>macosx</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>5A29969916FE1D8800EDB6C0</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>5A29969A16FE1D8800EDB6C0</string>
+				<string>5A29969B16FE1D8800EDB6C0</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>5A29969A16FE1D8800EDB6C0</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>8B819B2F0A8643D9895CF2E1</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>COMBINE_HIDPI_IMAGES</key>
+				<string>YES</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>FogBugzer/FogBugzer-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>FogBugzer/FogBugzer-Info.plist</string>
+				<key>MACOSX_DEPLOYMENT_TARGET</key>
+				<string>10.8</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>5A29969B16FE1D8800EDB6C0</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>8B819B2F0A8643D9895CF2E1</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>COMBINE_HIDPI_IMAGES</key>
+				<string>YES</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>FogBugzer/FogBugzer-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>FogBugzer/FogBugzer-Info.plist</string>
+				<key>MACOSX_DEPLOYMENT_TARGET</key>
+				<string>10.8</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>5A29969C16FE1D8800EDB6C0</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>5A29969D16FE1D8800EDB6C0</string>
+				<string>5A29969E16FE1D8800EDB6C0</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>5A29969D16FE1D8800EDB6C0</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(BUILT_PRODUCTS_DIR)/FogBugzer.app/Contents/MacOS/FogBugzer</string>
+				<key>COMBINE_HIDPI_IMAGES</key>
+				<string>YES</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<string>"$(DEVELOPER_LIBRARY_DIR)/Frameworks"</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>FogBugzer/FogBugzer-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>FogBugzerTests/FogBugzerTests-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUNDLE_LOADER)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>octest</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>5A29969E16FE1D8800EDB6C0</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(BUILT_PRODUCTS_DIR)/FogBugzer.app/Contents/MacOS/FogBugzer</string>
+				<key>COMBINE_HIDPI_IMAGES</key>
+				<string>YES</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<string>"$(DEVELOPER_LIBRARY_DIR)/Frameworks"</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>FogBugzer/FogBugzer-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>FogBugzerTests/FogBugzerTests-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUNDLE_LOADER)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>octest</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>6ACD52FC999A4C1890A25F6D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Pods-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>1</string>
+		</dict>
+		<key>868BFBCF361D4149BEB7FE1B</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libPods.a</string>
+			<key>path</key>
+			<string>libPods.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>8B819B2F0A8643D9895CF2E1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Pods.xcconfig</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>5A29965D16FE1D8800EDB6C0</string>
+</dict>
+</plist>
