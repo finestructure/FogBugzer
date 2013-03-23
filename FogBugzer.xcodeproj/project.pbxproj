@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A29966916FE1D8800EDB6C0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A29966816FE1D8800EDB6C0 /* Cocoa.framework */; };
+		5A29967316FE1D8800EDB6C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A29967116FE1D8800EDB6C0 /* InfoPlist.strings */; };
+		5A29967516FE1D8800EDB6C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A29967416FE1D8800EDB6C0 /* main.m */; };
+		5A29967916FE1D8800EDB6C0 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5A29967716FE1D8800EDB6C0 /* Credits.rtf */; };
+		5A29967C16FE1D8800EDB6C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A29967B16FE1D8800EDB6C0 /* AppDelegate.m */; };
+		5A29967F16FE1D8800EDB6C0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A29967D16FE1D8800EDB6C0 /* MainMenu.xib */; };
+		5A29968216FE1D8800EDB6C0 /* FogBugzer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A29968016FE1D8800EDB6C0 /* FogBugzer.xcdatamodeld */; };
+		5A29968A16FE1D8800EDB6C0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A29968916FE1D8800EDB6C0 /* SenTestingKit.framework */; };
+		5A29968B16FE1D8800EDB6C0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A29966816FE1D8800EDB6C0 /* Cocoa.framework */; };
+		5A29969316FE1D8800EDB6C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A29969116FE1D8800EDB6C0 /* InfoPlist.strings */; };
+		5A29969616FE1D8800EDB6C0 /* FogBugzerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A29969516FE1D8800EDB6C0 /* FogBugzerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A29968C16FE1D8800EDB6C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A29965D16FE1D8800EDB6C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A29966416FE1D8800EDB6C0;
+			remoteInfo = FogBugzer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A29966516FE1D8800EDB6C0 /* FogBugzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FogBugzer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A29966816FE1D8800EDB6C0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5A29966B16FE1D8800EDB6C0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5A29966C16FE1D8800EDB6C0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5A29966D16FE1D8800EDB6C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5A29967016FE1D8800EDB6C0 /* FogBugzer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FogBugzer-Info.plist"; sourceTree = "<group>"; };
+		5A29967216FE1D8800EDB6C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5A29967416FE1D8800EDB6C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A29967616FE1D8800EDB6C0 /* FogBugzer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FogBugzer-Prefix.pch"; sourceTree = "<group>"; };
+		5A29967816FE1D8800EDB6C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		5A29967A16FE1D8800EDB6C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A29967B16FE1D8800EDB6C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A29967E16FE1D8800EDB6C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5A29968116FE1D8800EDB6C0 /* FogBugzer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FogBugzer.xcdatamodel; sourceTree = "<group>"; };
+		5A29968816FE1D8800EDB6C0 /* FogBugzerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FogBugzerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A29968916FE1D8800EDB6C0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5A29969016FE1D8800EDB6C0 /* FogBugzerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FogBugzerTests-Info.plist"; sourceTree = "<group>"; };
+		5A29969216FE1D8800EDB6C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5A29969416FE1D8800EDB6C0 /* FogBugzerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FogBugzerTests.h; sourceTree = "<group>"; };
+		5A29969516FE1D8800EDB6C0 /* FogBugzerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FogBugzerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A29966216FE1D8800EDB6C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A29966916FE1D8800EDB6C0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A29968416FE1D8800EDB6C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A29968A16FE1D8800EDB6C0 /* SenTestingKit.framework in Frameworks */,
+				5A29968B16FE1D8800EDB6C0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A29965C16FE1D8800EDB6C0 = {
+			isa = PBXGroup;
+			children = (
+				5A29966E16FE1D8800EDB6C0 /* FogBugzer */,
+				5A29968E16FE1D8800EDB6C0 /* FogBugzerTests */,
+				5A29966716FE1D8800EDB6C0 /* Frameworks */,
+				5A29966616FE1D8800EDB6C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A29966616FE1D8800EDB6C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A29966516FE1D8800EDB6C0 /* FogBugzer.app */,
+				5A29968816FE1D8800EDB6C0 /* FogBugzerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A29966716FE1D8800EDB6C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A29966816FE1D8800EDB6C0 /* Cocoa.framework */,
+				5A29968916FE1D8800EDB6C0 /* SenTestingKit.framework */,
+				5A29966A16FE1D8800EDB6C0 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A29966A16FE1D8800EDB6C0 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A29966B16FE1D8800EDB6C0 /* AppKit.framework */,
+				5A29966C16FE1D8800EDB6C0 /* CoreData.framework */,
+				5A29966D16FE1D8800EDB6C0 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5A29966E16FE1D8800EDB6C0 /* FogBugzer */ = {
+			isa = PBXGroup;
+			children = (
+				5A29967A16FE1D8800EDB6C0 /* AppDelegate.h */,
+				5A29967B16FE1D8800EDB6C0 /* AppDelegate.m */,
+				5A29967D16FE1D8800EDB6C0 /* MainMenu.xib */,
+				5A29968016FE1D8800EDB6C0 /* FogBugzer.xcdatamodeld */,
+				5A29966F16FE1D8800EDB6C0 /* Supporting Files */,
+			);
+			path = FogBugzer;
+			sourceTree = "<group>";
+		};
+		5A29966F16FE1D8800EDB6C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A29967016FE1D8800EDB6C0 /* FogBugzer-Info.plist */,
+				5A29967116FE1D8800EDB6C0 /* InfoPlist.strings */,
+				5A29967416FE1D8800EDB6C0 /* main.m */,
+				5A29967616FE1D8800EDB6C0 /* FogBugzer-Prefix.pch */,
+				5A29967716FE1D8800EDB6C0 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A29968E16FE1D8800EDB6C0 /* FogBugzerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A29969416FE1D8800EDB6C0 /* FogBugzerTests.h */,
+				5A29969516FE1D8800EDB6C0 /* FogBugzerTests.m */,
+				5A29968F16FE1D8800EDB6C0 /* Supporting Files */,
+			);
+			path = FogBugzerTests;
+			sourceTree = "<group>";
+		};
+		5A29968F16FE1D8800EDB6C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A29969016FE1D8800EDB6C0 /* FogBugzerTests-Info.plist */,
+				5A29969116FE1D8800EDB6C0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A29966416FE1D8800EDB6C0 /* FogBugzer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A29969916FE1D8800EDB6C0 /* Build configuration list for PBXNativeTarget "FogBugzer" */;
+			buildPhases = (
+				5A29966116FE1D8800EDB6C0 /* Sources */,
+				5A29966216FE1D8800EDB6C0 /* Frameworks */,
+				5A29966316FE1D8800EDB6C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FogBugzer;
+			productName = FogBugzer;
+			productReference = 5A29966516FE1D8800EDB6C0 /* FogBugzer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A29968716FE1D8800EDB6C0 /* FogBugzerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A29969C16FE1D8800EDB6C0 /* Build configuration list for PBXNativeTarget "FogBugzerTests" */;
+			buildPhases = (
+				5A29968316FE1D8800EDB6C0 /* Sources */,
+				5A29968416FE1D8800EDB6C0 /* Frameworks */,
+				5A29968516FE1D8800EDB6C0 /* Resources */,
+				5A29968616FE1D8800EDB6C0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A29968D16FE1D8800EDB6C0 /* PBXTargetDependency */,
+			);
+			name = FogBugzerTests;
+			productName = FogBugzerTests;
+			productReference = 5A29968816FE1D8800EDB6C0 /* FogBugzerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A29965D16FE1D8800EDB6C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Sven A. Schmidt";
+			};
+			buildConfigurationList = 5A29966016FE1D8800EDB6C0 /* Build configuration list for PBXProject "FogBugzer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5A29965C16FE1D8800EDB6C0;
+			productRefGroup = 5A29966616FE1D8800EDB6C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A29966416FE1D8800EDB6C0 /* FogBugzer */,
+				5A29968716FE1D8800EDB6C0 /* FogBugzerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A29966316FE1D8800EDB6C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A29967316FE1D8800EDB6C0 /* InfoPlist.strings in Resources */,
+				5A29967916FE1D8800EDB6C0 /* Credits.rtf in Resources */,
+				5A29967F16FE1D8800EDB6C0 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A29968516FE1D8800EDB6C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A29969316FE1D8800EDB6C0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A29968616FE1D8800EDB6C0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A29966116FE1D8800EDB6C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A29967516FE1D8800EDB6C0 /* main.m in Sources */,
+				5A29967C16FE1D8800EDB6C0 /* AppDelegate.m in Sources */,
+				5A29968216FE1D8800EDB6C0 /* FogBugzer.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A29968316FE1D8800EDB6C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A29969616FE1D8800EDB6C0 /* FogBugzerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A29968D16FE1D8800EDB6C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A29966416FE1D8800EDB6C0 /* FogBugzer */;
+			targetProxy = 5A29968C16FE1D8800EDB6C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A29967116FE1D8800EDB6C0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A29967216FE1D8800EDB6C0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5A29967716FE1D8800EDB6C0 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A29967816FE1D8800EDB6C0 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		5A29967D16FE1D8800EDB6C0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A29967E16FE1D8800EDB6C0 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		5A29969116FE1D8800EDB6C0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A29969216FE1D8800EDB6C0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A29969716FE1D8800EDB6C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5A29969816FE1D8800EDB6C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5A29969A16FE1D8800EDB6C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FogBugzer/FogBugzer-Prefix.pch";
+				INFOPLIST_FILE = "FogBugzer/FogBugzer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5A29969B16FE1D8800EDB6C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FogBugzer/FogBugzer-Prefix.pch";
+				INFOPLIST_FILE = "FogBugzer/FogBugzer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5A29969D16FE1D8800EDB6C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FogBugzer.app/Contents/MacOS/FogBugzer";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FogBugzer/FogBugzer-Prefix.pch";
+				INFOPLIST_FILE = "FogBugzerTests/FogBugzerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5A29969E16FE1D8800EDB6C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FogBugzer.app/Contents/MacOS/FogBugzer";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FogBugzer/FogBugzer-Prefix.pch";
+				INFOPLIST_FILE = "FogBugzerTests/FogBugzerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A29966016FE1D8800EDB6C0 /* Build configuration list for PBXProject "FogBugzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A29969716FE1D8800EDB6C0 /* Debug */,
+				5A29969816FE1D8800EDB6C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A29969916FE1D8800EDB6C0 /* Build configuration list for PBXNativeTarget "FogBugzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A29969A16FE1D8800EDB6C0 /* Debug */,
+				5A29969B16FE1D8800EDB6C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A29969C16FE1D8800EDB6C0 /* Build configuration list for PBXNativeTarget "FogBugzerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A29969D16FE1D8800EDB6C0 /* Debug */,
+				5A29969E16FE1D8800EDB6C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5A29968016FE1D8800EDB6C0 /* FogBugzer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5A29968116FE1D8800EDB6C0 /* FogBugzer.xcdatamodel */,
+			);
+			currentVersion = 5A29968116FE1D8800EDB6C0 /* FogBugzer.xcdatamodel */;
+			path = FogBugzer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5A29965D16FE1D8800EDB6C0 /* Project object */;
+}
